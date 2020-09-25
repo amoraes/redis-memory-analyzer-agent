@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rma-agent:
+    container_name: rma-agent
+    image: rma-agent
+    network_mode: bridge
+    environment:
+      SERVERS: host.docker.internal
+      LABEL: test
+      S3: amoraes-ifm
+
+
+
