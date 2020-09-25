@@ -7,7 +7,7 @@ services:
     environment:
       SERVERS: host.docker.internal
       LABEL: test
-      S3: amoraes-ifm
+      S3: test
 
 
 
